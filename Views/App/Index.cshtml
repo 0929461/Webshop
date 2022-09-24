@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "HomePage";
+}
+
+
+<div class="row">
+    <div class="col-md-9">
+        <div class="product-info">
+            <img src ="~/img/SK-A-1595.jpg" width="100" height="100" />
+            <h3>Mug</h3>
+            <ul class="product-props">
+                <li>Title: Nature</li>
+                <li>Place: Hoge Veluwe</li>
+                <li>Description: Rest day</li>
+                <li>Date: January 21, 2022</li>
+            </ul>
+            <button id="buyButton" class="btn btn-success">Add</button>
+        </div>
+
+        <div id="theForm">
+            <form>
+                <label>Your Name:</label>
+                <br />
+                <input />
+                <br />
+                <label>Email:</label>
+                <br />
+                <input type="email" />
+                <br />
+                <label>Subject:</label>
+                <br />
+                <input type="text" />
+                <br />
+                <label> Message:</label>
+                <br />
+                <textarea rows="4"></textarea>
+                <br />
+                <input type="submit" value="Send Message" />
+            </form>
+        </div>
+
+        <div>
+            <div id="loginToggle">Login</div>
+            <form class="popup-form">
+                <div>
+                    <label>Username</label>
+                    <input />
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" />
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <label>Remember me?</label>
+                </div>
+                <div>
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+        </div>
+        </div>
+
+    <div 
+         class="col-md-3">
+        <p> This part is a funny part where you can buy some products</p>
+    </div>
+</div>
+
+
