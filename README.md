@@ -1,2 +1,2 @@
 # Webshop
-Made with ASP.NET Core MVC EF Core and Bootstrap
+Made with ASP.NET Core 5 MVC EF Core and Bootstrap
